@@ -25,5 +25,5 @@ def cozmo_program(robot: cozmo.robot.Robot):
         robot.say_text('battery is Ok').wait_for_completed()
 
     robot.drive_straight(distance_mm(-10), speed_mmps(50)).wait_for_completed()
-
+#
 cozmo.run_program(cozmo_program)
